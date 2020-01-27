@@ -4,7 +4,7 @@ end
 
 def find_max_value(array)
   x = 0
-  array.length.time { |element| x = array[element] if array[index] > x }
+  array.length.times { |element| x = array[element] if array[index] > x }
   x
 end
 

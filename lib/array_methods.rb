@@ -4,7 +4,7 @@ end
 
 def find_max_value(array)
   x = 0
-  array.length.time { |index| }
+  array.length.time { |index| x = array[index] }
 end
 
 def find_min_value(array)
